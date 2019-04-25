@@ -53,7 +53,7 @@ public class Feather {
 		@Override
 		<T> Provider<T> provider(Key<T> key, Set<Key> chain) {
 			Class c = bindings.get(key.type);
-
+			
 			if(c == null)
 				return super.provider(key, chain);
 			else 
