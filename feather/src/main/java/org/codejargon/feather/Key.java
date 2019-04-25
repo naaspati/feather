@@ -72,5 +72,9 @@ public class Key<T> {
         return type.getName() + suffix;
     }
 
+	static <T> Key<T> of(Class<T> type, Key<T> key) {
+		return new Key<>(type, key.qualifier, key.name);
+	}
+
 
 }

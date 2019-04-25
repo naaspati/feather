@@ -1,0 +1,15 @@
+/bin/
+/.gradle/
+*.class
+
+*.jar
+
+/bin/
+**/*.db
+yarn.lock
+
+**/bin/
+**/build/
+**/node_modules/
+**/.recommenders/
+**/.metadata/

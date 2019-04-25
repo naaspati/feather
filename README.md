@@ -1,3 +1,5 @@
+using a forked version to support bindings
+
 #### About Feather
 [Feather](http://zsoltherpai.github.io/feather) is an ultra-lightweight dependency injection ([JSR-330](https://jcp.org/en/jsr/detail?id=330 "JSR-330"))
 library for Java and Android. Dependency injection frameworks are often perceived as "magical" and complex. 
